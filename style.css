@@ -6,9 +6,15 @@ h1 {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
+
 }
 
 button {
   padding: 20px 40px;
   font-size: 24px;
 }
+
+/* button overflow */
+/* fixed button overflow w/ flex-wrap */
